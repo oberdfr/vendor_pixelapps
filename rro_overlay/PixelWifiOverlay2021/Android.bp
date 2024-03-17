@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "PixelWifiOverlay2021",
+    sdk_version: "current",
+    vendor: true,
+}

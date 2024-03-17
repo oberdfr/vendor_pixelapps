@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="integer" name="config_activelyPreferBadWifi" id="0x7f010000" />
+    <public type="integer" name="config_networkWakeupPacketMark" id="0x7f010002" />
+    <public type="integer" name="config_networkWakeupPacketMask" id="0x7f010003" />
+    <public type="integer" name="config_networkAvoidBadWifi" id="0x7f010001" />
+</resources>

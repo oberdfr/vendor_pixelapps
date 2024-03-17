@@ -1,0 +1,34 @@
+# PixelApps
+system_ext/etc/permissions/com.android.settings.xml:system_ext/etc/permissions/com.android.settings.xml
+system_ext/etc/permissions/com.android.systemui.xml:system_ext/etc/permissions/com.android.systemui.xml
+system_ext/priv-app/SettingsGoogle/SettingsGoogle.apk;OVERRIDES=Settings
+system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk;OVERRIDES=SystemUI
+system_ext/priv-app/SystemUIGoogle/oat/arm64/SystemUIGoogle.odex
+system_ext/priv-app/SystemUIGoogle/oat/arm64/SystemUIGoogle.vdex
+
+# Clocks
+system_ext/priv-app/SystemUIClocks-BigNum/SystemUIClocks-BigNum.apk
+system_ext/priv-app/SystemUIClocks-BigNum/oat/arm64/SystemUIClocks-BigNum.odex
+system_ext/priv-app/SystemUIClocks-BigNum/oat/arm64/SystemUIClocks-BigNum.vdex
+system_ext/priv-app/SystemUIClocks-Calligraphy/SystemUIClocks-Calligraphy.apk
+system_ext/priv-app/SystemUIClocks-Calligraphy/oat/arm64/SystemUIClocks-Calligraphy.odex
+system_ext/priv-app/SystemUIClocks-Calligraphy/oat/arm64/SystemUIClocks-Calligraphy.vdex
+system_ext/priv-app/SystemUIClocks-Flex/SystemUIClocks-Flex.apk
+system_ext/priv-app/SystemUIClocks-Flex/oat/arm64/SystemUIClocks-Flex.odex
+system_ext/priv-app/SystemUIClocks-Flex/oat/arm64/SystemUIClocks-Flex.vdex
+system_ext/priv-app/SystemUIClocks-Growth/SystemUIClocks-Growth.apk
+system_ext/priv-app/SystemUIClocks-Growth/oat/arm64/SystemUIClocks-Growth.odex
+system_ext/priv-app/SystemUIClocks-Growth/oat/arm64/SystemUIClocks-Growth.vdex
+system_ext/priv-app/SystemUIClocks-Inflate/SystemUIClocks-Inflate.apk
+system_ext/priv-app/SystemUIClocks-Inflate/oat/arm64/SystemUIClocks-Inflate.odex
+system_ext/priv-app/SystemUIClocks-Inflate/oat/arm64/SystemUIClocks-Inflate.vdex
+system_ext/priv-app/SystemUIClocks-Metro/SystemUIClocks-Metro.apk
+system_ext/priv-app/SystemUIClocks-Metro/oat/arm64/SystemUIClocks-Metro.odex
+system_ext/priv-app/SystemUIClocks-Metro/oat/arm64/SystemUIClocks-Metro.vdex
+system_ext/priv-app/SystemUIClocks-NumOverlap/SystemUIClocks-NumOverlap.apk
+system_ext/priv-app/SystemUIClocks-NumOverlap/oat/arm64/SystemUIClocks-NumOverlap.odex
+system_ext/priv-app/SystemUIClocks-NumOverlap/oat/arm64/SystemUIClocks-NumOverlap.vdex
+system_ext/priv-app/SystemUIClocks-Weather/SystemUIClocks-Weather.apk
+system_ext/priv-app/SystemUIClocks-Weather/oat/arm64/SystemUIClocks-Weather.odex
+system_ext/priv-app/SystemUIClocks-Weather/oat/arm64/SystemUIClocks-Weather.vdex
+
