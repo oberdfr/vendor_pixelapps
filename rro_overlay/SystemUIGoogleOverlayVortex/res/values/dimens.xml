@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- BetterBlur! -->
     <dimen name="max_window_blur_radius">50px</dimen>
+
+    <!-- UDFPS enroll animation fix -->
+    <dimen name="udfps_lottie_translate_y">-500.0dip</dimen>
 </resources>
