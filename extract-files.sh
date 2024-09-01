@@ -9,7 +9,7 @@
 set -e
 
 DEVICE=common
-VENDOR=PixelApps
+VENDOR=pixelapps
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
