@@ -92,7 +92,6 @@
     <integer-array name="config_nfc_conflict_with_usb_audio_vendorid">
         <item>0x000018D1</item>
     </integer-array>
-    
 
     <!-- SystemUI Plugins that can be loaded on user builds. -->
     <string-array name="config_pluginAllowlist" translatable="false">
@@ -118,8 +117,4 @@
     <!-- Enable WLC/NFC conflicts -->
     <bool name="config_nfc_conflict_with_usb_audio">true</bool>
     <bool name="config_nfc_conflict_with_wlc">true</bool>
-
-    <!-- Smart replies in notifications: Whether we disable the feature unless the app targets P -->
-    <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>
-
 </resources>

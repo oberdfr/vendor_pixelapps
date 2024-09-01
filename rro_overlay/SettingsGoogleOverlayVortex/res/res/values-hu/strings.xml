@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-**
-** Copyright 2017, The Android Open Source Project
+/*
+** Copyright (C) 2024 The hentaiOS Project and its Proprietors.
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 ** limitations under the License.
 */
 -->
-<inset xmlns:android="http://schemas.android.com/apk/res/android"
-    android:insetLeft="1.0dp"
-    android:insetRight="1.0dp"
-    android:drawable="@*android:drawable/ic_qs_dnd" />
+<resources>
+    <string name="display_white_balance_summary">Dinamikusan korrigálja a kijelzőt a környezeti fényerő alapján</string>
+    <string name="display_white_balance_title">Környezeti fényerő szabályozása</string>
+</resources>
