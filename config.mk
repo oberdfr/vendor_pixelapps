@@ -22,11 +22,24 @@ $(call inherit-product, vendor/PixelApps/common/common-vendor.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
+    PearlOverlay2024 \
     PixelBatteryHealthOverlay \
-    PixelConnectivityOverlay2021 \
+    PixelConnectivityOverlay2024 \
     PixelWifiOverlay2021 \
     SettingsGoogleOverlayVortex \
     SystemUIGoogleOverlayVortex \
     SystemUIGXOverlay \
+    WildlifeSettingsVpnOverlay2022 \
+    WildlifeSysuiVpnOverlay2022 \
+    PixelSetupWizardOverlay2024 
+
+ifeq ($(PIXELAPPS_UDFPS), true)
+    PRODUCT_PACKAGES += \
+        UdfpsOverlay
+    ifeq ($(PIXELAPPS_ULTRASONIC_UDFPS), true)
+        PRODUCT_PACKAGES += \
+            UltrasonicOverlay
+    endif
+endif
 
 endif
