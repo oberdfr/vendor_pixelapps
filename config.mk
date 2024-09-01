@@ -18,7 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/PixelApps
 
 # PixelApps
-$(call inherit-product, vendor/PixelApps/common/common-vendor.mk)
+$(call inherit-product, vendor/pixelapps/common/common-vendor.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
