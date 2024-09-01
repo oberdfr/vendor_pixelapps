@@ -1,0 +1,42 @@
+# --- product --- #
+
+# AI
+product/priv-app/PixelAIPrebuilt/PixelAIPrebuilt.apk
+
+# Dreamliner
+product/priv-app/DreamlinerPrebuilt/DreamlinerPrebuilt.apk
+product/priv-app/DreamlinerUpdater/DreamlinerUpdater.apk
+
+# Satellite
+product/priv-app/SatelliteGatewayPrebuilt/SatelliteGatewayPrebuilt.apk
+
+# VPN
+product/priv-app/AdaptiveVPNPrebuilt-10307/AdaptiveVPNPrebuilt-10307.apk
+
+# DiagnosticsTool
+product/priv-app/DiagnosticsToolPrebuilt/DiagnosticsToolPrebuilt.apk
+
+# Retail
+product/priv-app/RetailCorePrebuilt/RetailCorePrebuilt.apk
+product/priv-app/RetailDemoGooglePrebuilt/RetailDemoGooglePrebuilt.apk
+
+# Tips
+product/priv-app/TipsPrebuilt_v5.2.0.595892729/TipsPrebuilt_v5.2.0.595892729.apk
+
+# Misc
+product/priv-app/CreativeAssistant/CreativeAssistant.apk
+product/priv-app/SSRestartDetector/SSRestartDetector.apk
+
+# --- system_ext --- #
+
+# Face Unlock
+system_ext/priv-app/SettingsGoogleFutureFaceEnroll/SettingsGoogleFutureFaceEnroll.apk
+
+# Satellite
+system_ext/priv-app/VendorSatelliteService/VendorSatelliteService.apk
+system_ext/priv-app/PixelSatelliteService/PixelSatelliteService.apk
+
+# Misc
+system_ext/priv-app/CccDkTimeSyncService/CccDkTimeSyncService.apk
+system_ext/priv-app/DeviceConnectivityServicePrebuilt_24.02.00/DeviceConnectivityServicePrebuilt_24.02.00.apk
+system_ext/priv-app/UvExposureReporter/UvExposureReporter.apk

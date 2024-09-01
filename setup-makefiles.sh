@@ -9,7 +9,7 @@
 set -e
 
 DEVICE=common
-VENDOR=PixelApps
+VENDOR=pixelapps
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
@@ -30,8 +30,8 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" true
 # Warning headers and guards
 write_headers "arm64"
 sed -i 's|TARGET_DEVICE|TARGET_ARCH|g' "${ANDROIDMK}"
-sed -i 's|vendor/PixelApps/|vendor/PixelApps/common|g' "${PRODUCTMK}"
-sed -i 's|device/PixelApps//setup-makefiles.sh|vendor/PixelApps/setup-makefiles.sh|g' "${ANDROIDBP}" "${ANDROIDMK}" "${BOARDMK}" "${PRODUCTMK}"
+sed -i 's|vendor/pixelapps/|vendor/pixelapps/common|g' "${PRODUCTMK}"
+sed -i 's|device/pixelapps//setup-makefiles.sh|vendor/pixelapps/setup-makefiles.sh|g' "${ANDROIDBP}" "${ANDROIDMK}" "${BOARDMK}" "${PRODUCTMK}"
 
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
 

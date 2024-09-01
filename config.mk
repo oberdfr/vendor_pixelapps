@@ -20,6 +20,11 @@ PRODUCT_SOONG_NAMESPACES += \
 # PixelApps
 $(call inherit-product, vendor/pixelapps/common/common-vendor.mk)
 
+ifeq ($(PIXELAPPS_OPTIONAL), true)
+    # Optional Pixel Apps
+    $(call inherit-product, vendor/pixelapps/optional/optional-vendor.mk)
+endif
+
 # Overlays
 PRODUCT_PACKAGES += \
     PearlOverlay2024 \
