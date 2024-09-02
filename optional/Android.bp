@@ -8,6 +8,17 @@ soong_namespace {
 }
 
 android_app_import {
+	name: "SafetyRegulatoryInfo",
+	owner: "pixelapps",
+	apk: "proprietary/product/app/SafetyRegulatoryInfo/SafetyRegulatoryInfo.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
 	name: "AdaptiveVPNPrebuilt-10307",
 	owner: "pixelapps",
 	apk: "proprietary/product/priv-app/AdaptiveVPNPrebuilt-10307/AdaptiveVPNPrebuilt-10307.apk",
@@ -140,6 +151,28 @@ android_app_import {
 }
 
 android_app_import {
+	name: "PersistentBackgroundCameraServices",
+	owner: "pixelapps",
+	apk: "proprietary/system_ext/app/PersistentBackgroundCameraServices/PersistentBackgroundCameraServices.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "PersistentBackgroundServices",
+	owner: "pixelapps",
+	apk: "proprietary/system_ext/app/PersistentBackgroundServices/PersistentBackgroundServices.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
 	name: "CccDkTimeSyncService",
 	owner: "pixelapps",
 	apk: "proprietary/system_ext/priv-app/CccDkTimeSyncService/CccDkTimeSyncService.apk",
@@ -167,18 +200,6 @@ android_app_import {
 	name: "PixelSatelliteService",
 	owner: "pixelapps",
 	apk: "proprietary/system_ext/priv-app/PixelSatelliteService/PixelSatelliteService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "SettingsGoogleFutureFaceEnroll",
-	owner: "pixelapps",
-	apk: "proprietary/system_ext/priv-app/SettingsGoogleFutureFaceEnroll/SettingsGoogleFutureFaceEnroll.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,

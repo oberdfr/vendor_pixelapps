@@ -23,18 +23,28 @@ product/priv-app/RetailDemoGooglePrebuilt/RetailDemoGooglePrebuilt.apk
 # Tips
 product/priv-app/TipsPrebuilt_v5.2.0.595892729/TipsPrebuilt_v5.2.0.595892729.apk
 
+# Regulatory info
+product/app/SafetyRegulatoryInfo/SafetyRegulatoryInfo.apk
+
 # Misc
 product/priv-app/CreativeAssistant/CreativeAssistant.apk
 product/priv-app/SSRestartDetector/SSRestartDetector.apk
 
 # --- system_ext --- #
 
-# Face Unlock
-system_ext/priv-app/SettingsGoogleFutureFaceEnroll/SettingsGoogleFutureFaceEnroll.apk
+# Face Unlock --> now separated
+# system_ext/priv-app/SettingsGoogleFutureFaceEnroll/SettingsGoogleFutureFaceEnroll.apk
 
 # Satellite
 system_ext/priv-app/VendorSatelliteService/VendorSatelliteService.apk
 system_ext/priv-app/PixelSatelliteService/PixelSatelliteService.apk
+
+# PersistentBackgroundCameraServices
+system_ext/app/PersistentBackgroundCameraServices/PersistentBackgroundCameraServices.apk
+system_ext/app/PersistentBackgroundServices/PersistentBackgroundServices.apk
+
+# RepairMode --> not working for now
+# system_ext/app/RepairMode/RepairMode.apk
 
 # Misc
 system_ext/priv-app/CccDkTimeSyncService/CccDkTimeSyncService.apk
