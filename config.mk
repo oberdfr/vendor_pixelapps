@@ -25,6 +25,11 @@ ifeq ($(PIXELAPPS_OPTIONAL), true)
     $(call inherit-product, vendor/pixelapps/optional/optional-vendor.mk)
 endif
 
+# Pixel Face Unlock
+ifeq ($(PIXELAPPS_FACE_UNLOCK), true)
+    $(call inherit-product, vendor/pixelapps/faceunlock/device.mk)
+endif
+
 # Overlays
 PRODUCT_PACKAGES += \
     PearlOverlay2024 \
