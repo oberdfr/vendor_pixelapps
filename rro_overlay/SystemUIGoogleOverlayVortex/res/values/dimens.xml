@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- UDFPS enroll animation fix -->
-    <dimen name="udfps_lottie_translate_y">-500.0dip</dimen>
-</resources>

@@ -32,16 +32,9 @@ endif
 
 # Overlays
 PRODUCT_PACKAGES += \
-    PearlOverlay2024 \
-    PixelBatteryHealthOverlay \
-    PixelConnectivityOverlay2024 \
-    PixelWifiOverlay2021 \
     SettingsGoogleOverlayVortex \
     SystemUIGoogleOverlayVortex \
     SystemUIGXOverlay \
-    WildlifeSettingsVpnOverlay2022 \
-    WildlifeSysuiVpnOverlay2022 \
-    PixelSetupWizardOverlay2024 
 
 ifeq ($(PIXELAPPS_UDFPS), true)
     PRODUCT_PACKAGES += \

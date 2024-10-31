@@ -8,21 +8,11 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_PACKAGES += \
     SafetyRegulatoryInfo \
-    AdaptiveVPNPrebuilt-10307 \
-    CreativeAssistant \
     DiagnosticsToolPrebuilt \
-    DreamlinerPrebuilt \
     DreamlinerUpdater \
-    PixelAIPrebuilt \
-    RetailCorePrebuilt \
-    RetailDemoGooglePrebuilt \
     SSRestartDetector \
-    SatelliteGatewayPrebuilt \
-    TipsPrebuilt_v5.2.0.595892729 \
     PersistentBackgroundCameraServices \
     PersistentBackgroundServices \
     CccDkTimeSyncService \
     DeviceConnectivityServicePrebuilt_24.02.00 \
-    PixelSatelliteService \
     UvExposureReporter \
-    VendorSatelliteService
